@@ -16,6 +16,9 @@ Client side (web client) program uses faceapi library to detect face area and ca
 
 
 > **Note 1:** This project needs a webcam attached to the system.
+
 > **Note 2:** It takes a while to load face API library.
+
 > **Note 3:** This project is tested with chrome and firefox web browsers.
+
 > **Note 4:** The project is tested when just a guy in front of it.
