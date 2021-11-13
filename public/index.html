@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <title>Face Capture</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row align-items-center m-4  ">
+      <div class="col-md-5">
+        <video id="video" width="640" height="480" autoplay muted></video>
+        <!-- <video id="video"  autoplay muted></video> -->
+      </div>
+      <div class="col-md-2 mt-4 mt-md-0">
+
+      </div>
+      <div class="col-md-5 mt-4 mt-md-0">
+          <canvas id="mycanvas" width="640" height="480"></canvas> 
+        <!-- <canvas id="mycanvas"></canvas>  -->
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col text-center">
+        <button type="button" onclick="ProcessAgain()" class="btn btn-primary btn-lg">Capture again</button>
+      </div>
+    </div>
+  </div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
