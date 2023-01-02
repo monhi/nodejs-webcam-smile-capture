@@ -1,10 +1,12 @@
 # nodejs-webcam-smile-capture
 This is a project to capture an image when it finds that somebody is smiling in front of webcam.
 Server side is a simple node.js project.
+
 Client side (web client) program uses faceapi library to detect face area and captures image when smile detected.
 * Bootstrap library is used for responsive page segmentation.
 * Server side is a simple node.js program.
-* 
+
+
 **How to use this program**
 * Download the project.
 * run npm install to install express library in main folder.
